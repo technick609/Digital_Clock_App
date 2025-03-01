@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+.main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 60%;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  border: none;
+  border-radius: 15px;
+  background: linear-gradient(to bottom left, #2e69ff 25%, #08deff);
+}
+
+.Tclock {
+  background-color: #9c3aff8f;
+  width: 50%;
+  height: 20vh;
+  font-size: 40px;
+  color: #fff;
+  border: 5px solid #fff;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
